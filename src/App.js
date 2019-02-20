@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import Test from './lib/test';
 import Error404 from './lib/Error404';
-import Landing from './lib/landing';
-import Tamagotchi from './lib/tamagotchi/tamagotchi';
-import Header from './lib/header';
+import Landing from './lib/Landing/Landing';
+import TamagotchiController from './lib/TamagotchiController/TamagotchiController';
+import NewTamagotchi from './lib/TamagotchiController/NewTamagotchi';
+import Header from './lib/Header/Header';
 
 class App extends Component {
   render() {
@@ -15,8 +15,8 @@ class App extends Component {
         <Header />
           <Switch>
             <Route exact path='/' component={Landing} />
-            <Route exact path='/test' component={Test} />
-            <Route exact path='/tamagotchi' component={Tamagotchi} />
+            <Route exact path='/tamagotchi' component={TamagotchiController} />
+            <Route exact path='/tamagotchi/new-tamagotchi' component={NewTamagotchi} />
             <Route component={Error404} />
           </Switch>
       </div>

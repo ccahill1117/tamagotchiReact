@@ -8,7 +8,7 @@ class Tamagotchi extends Component {
 
 
           <p>
-            tamagotchi parent component
+            Individual tamagotchi Component
           </p>
 
 
