@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 
-class Landing extends Component {
+
+class Tamagotchi extends Component {
   render() {
     return (
       <div>
 
-  
+
           <p>
-            hello
+            tamagotchi parent component
           </p>
 
 
@@ -17,4 +17,4 @@ class Landing extends Component {
   }
 }
 
-export default Landing;
+export default Tamagotchi;
