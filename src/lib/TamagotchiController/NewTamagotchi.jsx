@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import { v4 } from 'uuid';
+import Tamagotchi from './Tamagotchi/Tamagotchi'
 
 class NewTamagotchi extends Component {
   render() {
@@ -12,5 +13,4 @@ class NewTamagotchi extends Component {
     );
   }
 }
-
 export default NewTamagotchi;
