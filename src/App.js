@@ -16,7 +16,6 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Landing} />
             <Route exact path='/tamagotchi' component={TamagotchiController} />
-            <Route exact path='/tamagotchi/new-tamagotchi' component={NewTamagotchi} />
             <Route component={Error404} />
           </Switch>
       </div>

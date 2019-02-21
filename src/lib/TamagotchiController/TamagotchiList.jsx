@@ -9,8 +9,10 @@ function TamagotchiList(props) {
         {props.tamagotchiList.map((tama) =>
           <Tamagotchi
             food={tama.food}
+            water={tama.water}
+            activity={tama.activity}
             key={tama.id}
-            />
+          />
         )}
       </p>
     </div>

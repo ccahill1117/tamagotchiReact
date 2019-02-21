@@ -9,7 +9,7 @@ class Tamagotchi extends Component {
     this.state = {
       food: null,
       water: null,
-      activity: null,
+      activity: null
     }
   }
   render() {

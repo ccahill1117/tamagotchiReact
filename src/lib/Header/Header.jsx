@@ -14,7 +14,7 @@ class Header extends Component {
         <h1>header</h1>
         <h4><Link to='/'>Home Page</Link></h4>
 
-        <h4><Link to='/tamagotchi/new-tamagotchi'>Create a new Tamagotchi</Link></h4>
+        <h4><Link to='/tamagotchi'>Start</Link></h4>
 
       </div>
     );
